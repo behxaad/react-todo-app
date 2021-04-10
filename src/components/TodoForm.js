@@ -34,6 +34,10 @@ class TodoForm extends Component {
     e.preventDefault();
   }
 
+  // delTodo = (id) => {
+  //   setTodos(todos.filter((todo) => todo.id !== id));
+  // };
+
 
   render() {
 

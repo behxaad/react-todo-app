@@ -1,7 +1,44 @@
 body{
-    background-color: burlywood;
+    background-color: gainsboro;
 }
 
-form{
-    align-items: center;
+.container,input,button{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    overflow: auto;
 }
+
+input{
+    border-radius: 10px;
+    width: 50%;
+    padding: 1%;
+    border:1px solid #ccc ;
+}
+
+button{
+    margin-left: 10px;
+    padding: 1%;
+}
+
+ul li{
+    list-style-type: none;
+    border: 2px solid rgb(255, 254, 255);
+    padding: 10px 10px;
+    margin:5px;
+    border-radius: 20px;
+    background-color: rgb(238, 17, 164);
+    color: black;
+    font-weight: bold;
+ 
+}
+
+li:focus{
+    text-decoration: line-through;
+}
+
+
+
+
+

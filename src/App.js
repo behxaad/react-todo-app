@@ -8,12 +8,11 @@ class App extends Component {
     render() {
 
         return (
-            <div>
+            <div className="container">
                 <header>
                     <h1>React Todo App</h1>
                 </header>
                 <TodoForm />
-                <TodoList />
             </div>
         )
     }

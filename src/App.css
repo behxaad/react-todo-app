@@ -17,9 +17,16 @@ input{
     border:1px solid #ccc ;
 }
 
+
 button{
     margin-left: 10px;
     padding: 1%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px 20%;
 }
 
 ul li{
@@ -28,15 +35,36 @@ ul li{
     padding: 10px 10px;
     margin:5px;
     border-radius: 20px;
-    background-color: rgb(238, 17, 164);
-    color: black;
+    background-color: rgb(190, 190, 190);
+    color: rgba(7, 7, 7, 0.733);
     font-weight: bold;
  
 }
 
-li:focus{
+li:hover{
     text-decoration: line-through;
+    background-color: cornflowerblue;
+    cursor: pointer
 }
+
+footer{
+
+    position: relative;
+    bottom: 0;
+    margin-top: 75%;
+    margin: 0 39%;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:
 
 
 
